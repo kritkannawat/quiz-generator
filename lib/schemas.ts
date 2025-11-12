@@ -11,7 +11,7 @@ export const questionSchema = z.object({
   answer: z
     .enum(["ก", "ข", "ค", "ง"])
     .describe(
-      "The correct answer, where A is the first option, B is the second, and so on.",
+      "The correct answer, where ก is the first option, ข is the second, and so on.",
     ),
 });
 
