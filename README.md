@@ -3,7 +3,7 @@
 ## คัดลอก repository
 
 ```bash
-git clone https://github.com/kritkannawat/quiz-generator.git
+git clone https://github.com/kritkannawat/quiz-generator.git [file-name]
 ```
 
 วิธีการรันตัวอย่างในเครื่องของคุณ (Local Setup):
