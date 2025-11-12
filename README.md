@@ -1,4 +1,4 @@
-# ครื่องมือสร้างแบบทดสอบจากไฟล์ PDF (PDF to Quiz Generator)
+# เครื่องมือสร้างแบบทดสอบจากไฟล์ PDF (PDF to Quiz Generator)
 
 ## คัดลอก repository
 
