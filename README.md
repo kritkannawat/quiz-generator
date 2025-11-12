@@ -1,41 +1,25 @@
-# AI SDK PDF Support Example
+# ครื่องมือสร้างแบบทดสอบจากไฟล์ PDF (PDF to Quiz Generator)
 
-This example demonstrates how to use the [AI SDK](https://sdk.vercel.ai/docs) with [Next.js](https://nextjs.org/) with the `useObject` hook to submit PDF messages to the AI provider of your choice (Google or Anthropic).
-
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-preview-pdf-support&env=GOOGLE_API_KEY&envDescription=API%20keys%20needed%20for%20application&envLink=google.com)
-
-## How to use
-
-Run [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## คัดลอก repository
 
 ```bash
-npx create-next-app --example https://github.com/vercel-labs/ai-sdk-preview-pdf-support ai-sdk-preview-pdf-support-example
+git clone https://github.com/kritkannawat/quiz-generator.git
 ```
 
-```bash
-yarn create next-app --example https://github.com/vercel-labs/ai-sdk-preview-pdf-support ai-sdk-preview-pdf-support-example
-```
+วิธีการรันตัวอย่างในเครื่องของคุณ (Local Setup):
 
-```bash
-pnpm create next-app --example https://github.com/vercel-labs/ai-sdk-preview-pdf-support ai-sdk-preview-pdf-support-example
-```
-
-To run the example locally you need to:
-
-1. Sign up for accounts with the AI providers you want to use (e.g., Google).
-2. Obtain API keys for Google provider.
-3. Set the required environment variables as shown in the `.env.example` file, but in a new file called `.env`.
-4. `npm install` to install the required dependencies.
-5. `npm run dev` to launch the development server.
+1. สมัครบัญชี: สมัครบัญชีกับผู้ให้บริการ AI ที่คุณต้องการใช้ (เช่น Google).
+2. รับ API keys : รับ API keys สำหรับผู้ให้บริการ Google.
+3. ตั้งค่าตัวแปรสภาพแวดล้อม : ตั้งค่าตัวแปรสภาพแวดล้อมที่จำเป็นตามที่แสดงในไฟล์ `.env.example` โดยสร้างไฟล์ใหม่ชื่อ`.env`.
+4. ติดตั้งสิ่งที่จำเป็น : `npm install` เพื่อติดตั้งสิ่งที่จำเป็นทั้งหมด.
+5. เริ่มเซิร์ฟเวอร์ : รันคำสั่ง `npm run dev` เพื่อเริ่มเซิร์ฟเวอร์สำหรับการพัฒนา.
 
 
-## Learn More
+## เรียนรู้เพิ่มเติม
 
-To learn more about Vercel AI SDK or Next.js take a look at the following resources:
+หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Vercel AI SDK หรือ Next.js โปรดดูทรัพยากรต่อไปนี้ :
 
 - [AI SDK docs](https://sdk.vercel.ai/docs)
 - [Vercel AI Playground](https://play.vercel.ai)
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Next.js Documentation](https://nextjs.org/docs) - เรียนรู้เกี่ยวกับคุณลักษณะ Next.js และ API
 
